@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor-principal{
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+.header{
+    height: 80px;
+    background-color: #1B1D1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 15px; */
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    height: 100%;
+    width: 150px;
+    font-weight:normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+.header a:hover{
+    background-color: #3d3d3d;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+.logo{
+    width: 450px;
+    margin-top: 20px;
+}
+.cards-contenedor{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.card-img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+.card-audio{
+    width: 250px;
+}
+.card:hover{
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.3);
+}
